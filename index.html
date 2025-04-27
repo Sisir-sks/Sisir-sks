@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Spotify -Web Player: Music for Everyone</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo-s">
+            <a href="#"><img src="./logo.png" alt="logo"></a>
+        </div>
+        <div class="home">
+            <a href="#">
+                <i class="fa-solid fa-house"></i>
+            </a>
+        </div>
+        <div class="serchbox">
+            
+            <input type="search" placeholder="What do you want to play?" class="sbox">
+            <a href="#" class="sboxsmall"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <div class="rnd hide" id="oneint">Explore Premium</div>
+        <div class="rnd" id="oneint2"><i class="fa-regular fa-circle-arrow-down"></i> Install App</div>
+        <div class="rnd" id="notfy"><i class="fa-solid fa-bell "></i></div>
+        <div ><button class="login">Login</button></div>
+        <div ><button class="signin">Signin</button></div>
+
+
+    </div>
+    <div class="main">
+       
+        <div class="sidebar">
+            <div class="header">
+                <div class="libbtn">
+                    <button class="libtn">
+                        <img src="./library_icon.png" alt="">
+                        Your Library
+                    </button>
+                    <div>
+                        <button class="hed">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <button class="hed">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+
+                    
+                </div>
+                
+                
+            </div>
+            <div class="artist">
+                <div class="recnt">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <button class="rcl">
+                        <p>Recents</p>
+                        <i class="fa-solid fa-list"></i>
+                        
+                    </button>
+
+                </div>
+                <div class="artistsnm">
+                    <ul>
+                        <li>
+                            <div class="artp">
+                                <a href="#"><img src="./ajs.jpg" alt=""></a>
+                                <p>Arijit Singh</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="artp">
+                                <a href="#"><img src="./kk.jpg" alt=""></a>
+                                <p>Kailash Khair</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="artp">
+                                <a href="#"><img src="./pritam.png" alt="img"></a>
+                                <p>Pritam</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="artp">
+                                <a href="#"><img src="./arr.jpg" alt=""></a>
+                                <p>A.R.Rahman</p>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="main-content">
+            <div class="cards">
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        
+                        <img src="./card1img.jpeg" alt="" class="card-img">
+                        <img src="./player_icon3.png" alt="" class="picon">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played track...</p>
+                    </div>
+                </div>
+                <h2>Trending near you</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./card2img.jpeg" alt="" class="card-img">
+                        <img src="./player_icon3.png" alt="" class="picon">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played track...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card3img.jpeg" alt="" class="card-img">
+                        <img src="./player_icon3.png" alt="" class="picon">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played track...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card4img.jpeg" alt="" class="card-img">
+                        <img src="./player_icon3.png" alt="" class="picon">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played track...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card7img.jpg" alt="" class="card-img">
+                        <img src="./player_icon3.png" alt="" class="picon">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played track...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card8img.jpg" alt="" class="card-img">
+                        <img src="./player_icon3.png" alt="" class="picon">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played track...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card9img.jpg" alt="" class="card-img">
+                        <img src="./player_icon3.png" alt="" class="picon">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played track...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card10img.jpg" alt="" class="card-img">
+                        <img src="./player_icon3.png" alt="" class="picon">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played track...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card8img.jpg" alt="" class="card-img">
+                        <img src="./player_icon3.png" alt="" class="picon">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played track...</p>
+                    </div>
+                </div>
+                <h2>Featured Charts</h2>
+                <div class="card-container">
+                    <div class="card">
+                        
+                        <img src="./card5img.jpeg" alt="" class="card-img">
+                        <img src="./player_icon3.png" alt="" class="picon">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played track...</p>
+                    </div>
+                    <div class="card">
+                        
+                        <img src="./card6img.jpeg" alt="" class="card-img">
+                        <img src="./player_icon3.png" alt="" class="picon">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played track...</p>
+                    </div>
+                    <div class="card">
+                        
+                        <img src="./card5img.jpeg" alt="" class="card-img">
+                        <img src="./player_icon3.png" alt="" class="picon">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played track...</p>
+                    </div>
+            </div>
+        </div> 
+        <div class="footer">
+            <div class="lines"></div>
+           </div>
+
+    </div>
+    <div class="music-player">
+        <div class="album">
+            <img src="./card2img.jpeg" alt="" class="album-pic">
+            <div class="p-info">
+                <p class="pit">
+                    Mahiye jinna Sohna
+                </p>
+                <p class="pit-info">
+                    Aijit Singh
+                </p>
+            </div>
+        </div>
+        <div class="player">
+            <div class="player-controls">
+                <img src="./player_icon1.png" alt="" class="player-controls-icon">
+                <img src="./player_icon2.png" alt="" class="player-controls-icon">
+                <img src="./player_icon3.png" alt="" class="player-controls-icon" id="play">
+                <img src="./player_icon4.png" alt="" class="player-controls-icon">
+                <img src="./player_icon5.png" alt="" class="player-controls-icon">
+            </div>
+            <div class="play-back-bar">
+                <span class="start-time">00:00</span>
+                <input type="range" min="0" max="100" step="1" class="progress-bar" >
+                <span class="tot-time">03:30</span>
+            </div>
+        </div>
+        <div class="controls-p">
+
+            <i class="fa-solid fa-volume-high"></i>
+            <input type="range" style="margin-left:5px; ">
+        </div>
+    </div>
+   
+   
+</body>
+</html>
